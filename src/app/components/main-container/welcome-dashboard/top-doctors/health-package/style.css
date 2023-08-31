@@ -1,0 +1,34 @@
+.popularproducthealth-container {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 20px;
+  }
+.package {
+  background-color: white;
+  display: flex;
+  padding: 0px 10px 7px 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.package-icon {
+  width: 17%;
+  height: 9vh;
+  border-radius: 30px;
+}
+.package-ideal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+.package-name{
+    font-size: 12px;
+    font-weight: 600;
+}
+.ideal-name{
+    font-size: 12px;
+    font-weight: 600;
+    color:gray;
+}

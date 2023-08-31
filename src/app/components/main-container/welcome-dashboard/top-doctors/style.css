@@ -1,0 +1,77 @@
+.doctors-list {
+  width: 72%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+.top-doctor-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.top-doctors-head {
+  font-size: 14px;
+  font-weight: 600;
+}
+.view-image{
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+    color: #3457D5;
+    justify-content: right;
+    font-size: 16px;
+    gap: 5px;
+}
+.view-all{
+    font-size: 12px;
+}
+.image-size{
+    width: 14%;
+}
+.doctors-name-specialist{
+    display: flex;
+    gap: 20px;
+    padding-top: 5px;
+    flex-wrap: wrap-reverse;
+}
+.doctor-detail-container{
+    width: 44%;
+    border-radius: 10px;
+    background-color: #f6f6fd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.image-doctor{
+    width: 20%;
+    border-radius: 45px;
+}
+.doctors-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+.arrow-icon{
+    width: 7%;
+    height: 4vh;
+}
+.doctor-name{
+    font-size: 16px;
+    font-weight: 600;
+}
+.doctors-work{
+    font-size: 14px;
+}
+.rating{
+    color:grey;
+    font-size: 12px;
+}
