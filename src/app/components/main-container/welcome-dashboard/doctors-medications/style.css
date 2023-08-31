@@ -1,0 +1,40 @@
+.medication-container {
+  width: 23%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.medication-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 5px 16px 15px;
+  align-items: center;
+}
+.medication {
+  font-size: 14px;
+  font-weight: 600;
+}
+.medication-options {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.medication-name{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 18px 0px 17px 0px;
+}
+.medicine{
+   color:black;
+   display: flex;
+}
+.medicine-detail{
+    color: grey;
+    display: flex;
+    font-size: 10px;
+    justify-content: flex-start;
+}

@@ -1,0 +1,78 @@
+.popularproductconsultant-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 20px;
+}
+.doctor-info {
+  background-color: white;
+  padding: 10px 25px 12px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 12px;
+}
+.doctor-image-consulting {
+  width: 19%;
+  height: 8vh;
+  border-radius: 30px;
+}
+.doctor-image-name {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.doctor-name-work {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 14px;
+  align-items: flex-start;
+}
+.doctor-work-info {
+  color: grey;
+}
+.button-css {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+}
+.cancel-button {
+  padding: 10px 40px 10px 40px;
+  border-radius: 6px;
+  border: 1px solid #d3d3d3;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0px 0px 2px;
+}
+.reschedule-button {
+  padding: 10px 40px 10px 40px;
+  border-radius: 6px;
+  border: none;
+  background-color: aqua;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 0px 0px 2px;
+}
+.clock-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 25px 2px 25px;
+    background-color: #f6f6fd;
+    border-radius: 6px;
+}
+.calender-image {
+  width: 8%;
+  height: 3vh;
+}
+.clock-image {
+  width: 8%;
+  height: 3vh;
+}
+.date {
+  font-size: 14px;
+  color: #d3d3d3;
+}
