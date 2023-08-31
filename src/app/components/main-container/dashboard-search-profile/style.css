@@ -1,3 +1,37 @@
 .search-profile-container{
-    padding: 20px 25px 20px 25px;
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.doctor-profile{
+    width: 12%;
+    border-radius: 50px;
+}
+.options{
+    border: none;
+    padding: 6px 30px 6px 50px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px #e6e6fa;
+}
+.search-input{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.input{
+    border:none;
+    padding: 6px 30px 6px 30px;
+    border-radius: 8px;
+}
+.notification-profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.option-search{
+    display: flex;
+    gap:5px;
+    gap: 10rem;
 }

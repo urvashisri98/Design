@@ -14,7 +14,7 @@ const Sidebar = () => {
       <div className="sidebar-options">
         {SidebarIcons.map((item, index) => (
           <div className="icon-name" key={index}>
-            <img src={item.image} alt="" />
+            <img src={item.image} alt="" style={{width:"10%"}}/>
             <label className="name">{item.name}</label>
           </div>
         ))}

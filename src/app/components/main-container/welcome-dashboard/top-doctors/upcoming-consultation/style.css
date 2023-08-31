@@ -9,12 +9,12 @@
   padding: 10px 25px 12px 25px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 15px;
   border-radius: 12px;
 }
 .doctor-image-consulting {
   width: 19%;
-  height: 8vh;
+  height: 7vh;
   border-radius: 30px;
 }
 .doctor-image-name {
@@ -50,7 +50,7 @@
   padding: 10px 40px 10px 40px;
   border-radius: 6px;
   border: none;
-  background-color: aqua;
+  background-color: #af82c0;
   font-size: 12px;
   font-weight: 600;
   color: white;
