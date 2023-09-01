@@ -1,46 +1,59 @@
-import homeicon from "../assets/images/homeicon.svg";
-import doctorimage1 from "../assets/images/doctor1.webp";
+import homeicon from "../assets/images/homenew.png";
+import doctorimage1 from "../assets/images/images1.jpg";
+import doctorimage2 from "../assets/images/image2.jpg";
+import doctorimage3 from "../assets/images/image3.jpg";
+import doctorimage4 from "../assets/images/image5.jpg";
 import rightarrow from "../assets/images/arrowicon.png";
 import threedots from "../assets/images/threedots.png";
+import appointment from "../assets/images/appointment.png";
+import Labtest from "../assets/images/Labtest.png";
+import medicine from "../assets/images/medicine.png";
+import prescription from "../assets/images/prescription.png";
+import family from "../assets/images/family.png";
+import favourite from "../assets/images/favourite.png";
+import meassage from "../assets/images/messages.png";
+import payment from "../assets/images/cash.png";
+import setting from "../assets/images/setting.png";
+import Cream from "../assets/images/cream.jpg"
 export const SidebarIcons = [
   {
     image: homeicon,
     name: "Home"
   },
   {
-    image: homeicon,
+    image: appointment,
     name: "Appointment"
   },
   {
-    image: homeicon,
+    image: Labtest,
     name: "Lab Tests"
   },
   {
-    image: homeicon,
+    image: medicine,
     name: "Medicine Order"
   },
   {
-    image: homeicon,
+    image: favourite,
     name: "Favourites"
   },
   {
-    image: homeicon,
+    image: family,
     name: "Family"
   },
   {
-    image: homeicon,
+    image: prescription,
     name: "Prescription"
   },
   {
-    image: homeicon,
+    image: meassage,
     name: "Messages"
   },
   {
-    image: homeicon,
+    image: payment,
     name: "Payments"
   },
   {
-    image: homeicon,
+    image: setting,
     name: "Settings"
   }
 ];
@@ -54,21 +67,21 @@ export const Doctordetails = [
     rating:"50+ Review"
   },
   {
-    image:doctorimage1,
+    image:doctorimage2,
     doctorname:"Dr. Darlence Robertson",
     doctorwork:"Dental specialist",
     arrowicon:rightarrow,
     rating:"30+ Review"
   },
   {
-    image:doctorimage1,
+    image:doctorimage3,
     doctorname:"Dr. Darlence Robertson",
     doctorwork:"Dental specialist",
     arrowicon:rightarrow,
     rating:"40+ Review"
   },
   {
-    image:doctorimage1,
+    image:doctorimage4,
     doctorname:"Dr. Darlence Robertson",
     doctorwork:"Dental specialist",
     arrowicon:rightarrow,
@@ -91,19 +104,19 @@ export const Medicationsdata=[{
 
 
 export const Popularproducts=[{
-  image:doctorimage1,
+  image:Cream,
   popularName:"Necessarie 75ML",
   Dollar:"$27.60",
   dollar:"$34.7",
   arrowicon:rightarrow,
 },{
-  image:doctorimage1,
+  image:Cream,
   popularName:"Mario 118ML",
   Dollar:"$24.60",
   dollar:"$20.7",
   arrowicon:rightarrow,
 },{
-  image:doctorimage1,
+  image:Cream,
   popularName:"Allergy Relief 25mg",
   Dollar:"$50.60",
   dollar:"$28.7",

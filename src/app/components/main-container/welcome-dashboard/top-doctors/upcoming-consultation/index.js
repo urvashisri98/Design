@@ -1,5 +1,5 @@
 import React from 'react';
-import doctorimage1 from "../../../../../assets/images/doctor1.webp";
+import doctorimage1 from "../../../../../assets/images/image2.jpg";
 import Calender from "../../../../../assets/images/calender.png"
 import clock from "../../../../../assets/images/Clock.png"
 import "./style.css";
